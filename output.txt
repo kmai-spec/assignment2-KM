@@ -1,0 +1,27 @@
+Frequency tables for Sex
+    > freq(data$sex)
+    data$sex 
+        Frequency Percent Valid Percent
+    female       165  47.965         49.55
+    male         168  48.837         50.45
+    NA's          11   3.198              
+    Total        344 100.000        100.00
+
+This shows the frequency of the dataset for female and male. There are 165 females, 168 males, and 11 missing.
+Frequency tables for Species
+    > freq(data$species)
+    data$species 
+            Frequency Percent
+    Adelie          152   44.19
+    Chinstrap        68   19.77
+    Gentoo          124   36.05
+    Total           344  100.00
+There are 152 adelie, 68 Chinstrap, and 124 Gentoo in the dataset.
+
+Summary Statistics for bill_length_mm
+    > summary(data$bill_length_mm) 
+        Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+        32.10   39.23   44.45   43.92   48.50   59.60       2 
+    > sd(data$bill_length_mm, na.rm = TRUE)
+        [1] 5.459584
+The average bill_length of the penguins in this dataset is 43.92 mm, with the lowest being 32.1 mm and the maximum being 59.6.
