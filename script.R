@@ -12,3 +12,6 @@ freq(data$sex)
 #Summary statistics for quantitative
 summary(data$bill_length_mm) 
 sd(data$bill_length_mm, na.rm = TRUE)
+
+my.lm <- lm(bill_length_mm ~ factor(sex), data = data) 
+summary(my.lm)
