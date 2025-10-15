@@ -3,7 +3,7 @@ library(ggplot2)
 library(tidyverse)
 library(dplyr)
 
-data = read.csv("/Users/kennymai/Downloads/penguins.csv")
+data = read.csv("~/Documents/GitHub/assignment2-KM/penguins.csv")
 
 #Frequency tables for categorical
 freq(data$species)
