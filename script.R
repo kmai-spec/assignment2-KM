@@ -19,3 +19,5 @@ summary(my.lm)
 #Sydney's Addition
 summary(penguins$bill_length_mm)
 
+#Colin's Addition
+summary(penguins$flipper_length_mm)
