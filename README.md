@@ -8,4 +8,4 @@ Freqeuncy tables shows the category and the number of times it is in the dataset
 Ran a summary statistics for a quantitative variable, bill_length_mm
 Summary statistics shows the mean, quantiles (25%, 75%) of the variable, median, and the min/max
 
-Reproduce the analysis: Load in the dataset and run the frequency and summary statistics
+Reproduce the analysis: Load in the dataset - penguin csv,and run the frequency and summary statistics code
