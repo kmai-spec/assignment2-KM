@@ -15,3 +15,7 @@ sd(data$bill_length_mm, na.rm = TRUE)
 
 my.lm <- lm(bill_length_mm ~ factor(sex), data = data) 
 summary(my.lm)
+
+#Sydney's Addition
+summary(penguins$bill_length_mm)
+
